@@ -19,7 +19,7 @@ CREATE TABLE IF NOT EXISTS cars(
 )default charset utf8 COMMENT '';
 DROP table IF EXISTS cars;
 
--- ALTER TABLE cars
+-- ALTER TABLE cars we can alter but lets not right now, jus drop and re-create
 -- MODIFY COLUMN id
 
 INSERT INTO cars
